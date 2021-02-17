@@ -171,8 +171,8 @@ a:focus-visible {
 	align-items: center;
 	justify-content: center;
 	position: relative;
-    z-index: 1;
-    pointer-events: none;
+	z-index: 1;
+	pointer-events: none;
 }
 
 .content__item::before {
@@ -420,7 +420,7 @@ a:focus-visible {
 
 .button--janus {
 	font-family: freight-display-pro, serif;
-    font-weight: 900;
+	font-weight: 900;
 	width: 175px;
 	height: 120px;
 	color: #fff;
@@ -932,7 +932,7 @@ a:focus-visible {
 
 @keyframes rotateIt {
   to {
-  	transform: rotate(-360deg);
+	transform: rotate(-360deg);
   }
 }
 
@@ -1106,7 +1106,7 @@ https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */
 	width: 120px;
 	height: 120px;
 	font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: 700;
+	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 0.85rem;
 }
@@ -1137,13 +1137,13 @@ https://oreillymedia.github.io/Using_SVG/extras/ch07-textpaths.html */
 
 .progress__path {
 	stroke: #a6a6a6;
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+	stroke-dasharray: 1;
+	stroke-dashoffset: 1;
+	transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 .button--fenrir:hover .progress__path {
-    stroke-dashoffset: 0;
+	stroke-dashoffset: 0;
 }
 
 
